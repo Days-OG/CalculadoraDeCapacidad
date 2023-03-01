@@ -1,0 +1,58 @@
+body {
+    background-color: #f2f2f2; /* Establece un fondo gris claro */
+    background-image: linear-gradient(to bottom, #d0e9f9, #b3d5ec); /* Agrega un degradado lineal de azul claro a azul oscuro */
+  }
+  
+table {
+    border: 1px solid black; /* Establece un borde sólido de 1 píxel con color negro */
+    margin: 0 auto; /* Centra la tabla en el contenedor */
+    border-collapse: collapse; /* Fusiona los bordes de las celdas de la tabla */
+  }
+  
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  th, td {
+    padding: 8px; /* Agrega un espacio de relleno de 8 píxeles dentro de las celdas */
+    text-align: left; /* Alinea el contenido del texto a la izquierda */
+    border: 1px solid black; /* Establece un borde sólido de 1 píxel con color negro para cada celda */
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+    } 
+    #myInput {
+        text-align: center; 
+        display: block; /* Establece el elemento como bloque para poder ajustar el ancho */
+        width: 50%; /* Establece el ancho del input */
+        margin: 0 auto; /* Centra el input horizontalmente */
+        border: 2px solid #ccc; /* Establece un borde sólido de 2 píxeles con color gris */
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* Agrega una sombra con desplazamiento x y y, desenfoque y color RGBA */
+        padding: 8px; /* Agrega un espacio de relleno de 8 píxeles dentro del input */
+        font-size: 16px; /* Establece el tamaño de fuente */
+      }
+      
+      #myInput:focus {
+        outline: none; /* Elimina el contorno predeterminado al enfocar el input */
+        border-color: #2196F3; /* Establece el color del borde al enfocar el input */
+        box-shadow: 0px 0px 8px rgba(33, 150, 243, 0.6); /* Agrega una sombra más fuerte al enfocar el input */
+      }
+      button[type="submit"] {
+        display: inline-block; /* Establece el elemento como bloque en línea */
+        margin-top: 10px; /* Agrega un margen superior de 10 píxeles para separar del input */
+        margin-left: 46%; /* Agrega un margen a la izquierda del 46% para separar el input */
+        margin-bottom: 10px; /* Agrega un margen inferior de 10 píxeles para separar del input */
+        border: 2px solid #ccc; /* Establece un borde sólido de 2 píxeles con color gris */
+        background-color: #f2f2f2; /* Establece un color de fondo gris claro */
+        color: #333; /* Establece un color de texto negro */
+        padding: 8px 16px; /* Agrega un espacio de relleno de 8 píxeles arriba y abajo y 16 píxeles a los lados */
+        font-size: 16px; /* Establece el tamaño de fuente */
+      }
+      button[type="submit"]:hover {
+        background-color: #ddd; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+      }
+      h1 {
+        text-align: center;
+      }
