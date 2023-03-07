@@ -92,9 +92,9 @@ function miFuncion(numero) {
     const celdaPlazo = document.createElement('td');
     celdaPlazo.innerText = abonoCercano.plazo;
     fila.appendChild(celdaPrestamo);
-    fila.appendChild(celdaTotal);
     fila.appendChild(celdaAbono);
     fila.appendChild(celdaPlazo);
+    fila.appendChild(celdaTotal);
     tbody.appendChild(fila);
   });
 }
