@@ -1,6 +1,6 @@
 function agregarDatos(array, prestamo) {
   const plazos = [60, 54, 48, 42, 36, 30, 24];
-  const tasas = [1.138992, 1.006418, 0.877848, 0.753508, 0.633574, 0.518222, 0.4076];
+  const tasas = [1.359264, 1.199144, 1.044002, 0.894172, 0.7498, 0.6117, 0.47961];
   
   for (let i = 0; i < plazos.length; i++) {
     const total = prestamo * tasas[i] + prestamo;
