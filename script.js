@@ -26,7 +26,7 @@ function agregarDatos(array, prestamo) {
 let datos = [];
 
 // Llamar a la función para agregar los datos al array
-agregarDatos(datos, 5000);
+agregarDatos(datos, 3000);
 
 // Función para encontrar el elemento en el array con el valor de abono más cercano a abus
 function encontrarAbonoCercano(datos, abus, meses) {
